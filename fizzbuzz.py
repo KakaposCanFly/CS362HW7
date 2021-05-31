@@ -9,3 +9,6 @@ def fizz_buzz(a):
     else:
         x = a
     return x
+
+for i in range(100):
+    print(fizz_buzz(i+1))
