@@ -6,4 +6,6 @@ def fizz_buzz(a):
             x = "Fizz"
     elif a % 5 == 0:
         x = "Buzz"
+    else:
+        x = a
     return x
