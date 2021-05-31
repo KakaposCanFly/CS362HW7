@@ -14,5 +14,8 @@ class Testing(unittest.TestCase):
         for i in [15, 30, 45, 60]:
             self.assertEqual(fizzbuzz.fizz_buzz(i), "FizzBuzz")
 
+    def test_test4(self):
+        self.assertEqual(fizzbuzz.fizz_buzz(17), 17)
+
 if __name__ == "__main__":
     unittest.main()
