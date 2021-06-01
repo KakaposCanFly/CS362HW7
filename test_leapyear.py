@@ -6,7 +6,7 @@ class Testing(unittest.TestCase):
         self.assertTrue(leapyear.is_leap_year(2004))
 
     def test_leapYear2(self):
-        self.assertTrue(leapyear.is_leap_year(2100))
+        self.assertFalse(leapyear.is_leap_year(2100))
 
 
 if __name__ == "__main__":
